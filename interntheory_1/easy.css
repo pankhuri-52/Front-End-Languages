@@ -1,0 +1,77 @@
+header
+{
+  background-color:black;
+   overflow:auto;  
+}
+nav ul
+{
+   list-style:none;
+   padding:0;
+   margin:0;
+}
+.logo
+{
+   float:left;
+}
+nav ul li
+{
+   float:right;
+}
+.container
+{
+   width:960px;
+   margin:0 auto;
+   font-family:Arial;
+}
+nav ul li
+{
+   color:yellow;
+  text-decorati<on:none;
+  padding:20px;
+}
+.padd
+{
+   padding-right: 30%;
+  background-color:lightgrey;
+}
+.dot
+{
+  border-style: dotted;
+  border-color: red;
+  background-color:white;
+}
+.plain
+{
+   border-style: solid;
+   border-color: red;
+  background-color:white;
+}
+.dash
+{
+   border-style: dashed;
+   border-color: red;
+  background-color:white;
+}
+.dim
+{
+   border: 1px solid black;
+   bottom: 20px;
+   width: 100px;
+   height: 100px;
+  background-color:black;
+
+}
+.img
+{
+  position:absolute;
+  top:150px;
+  left:200px;
+ font-size:large;
+}
+.banner
+{
+   position:relative;
+   text-align:left;
+   color:yellow;
+  font-family:Arial;
+}

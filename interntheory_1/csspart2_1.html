@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table
+{
+  border-collapse: collapse;
+  width:960px;
+   margin:0 auto; 
+}
+td,th
+{
+   height: 60px;
+  vertical-align:top;
+  padding:0 20px;
+   font-family:sans-serif;
+}
+th
+{
+  background-color:#48d1e1;
+  color:#ffffff;
+}
+th.table-header
+{
+   background:#12a997;
+}
+.text-bold
+{
+   font-weight:600;
+}
+@media only screen and (min-width:500px)
+{ 
+      table
+         {
+              width:100%;
+          }
+}
+</style>
+</head>
+<body>
+<table border="1">
+<tr>
+<th class='table-header' colspan='3'>Product Details</th>
+</tr>
+<tr>
+<th>Product quantity</th>
+<th>Product name</th>
+<th>Product price</th>
+</tr>
+<tr>
+<td>1</td>
+<td>T-shirts</td>
+<td>500</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Blue Jeans</td>
+<td>500</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Black Jeans</td>
+<td>500</td>
+</tr>
+<tr>
+<td class='text-bold' rowspan="3">Total</td>
+<td class='text-bold'>Sum</td>
+<td>1500</td>
+</tr>
+<tr>
+<td class='text-bold'>Taxes</td>
+<td>150</td>
+</tr>
+<tr>
+<td class='text-bold'>Grand Total</td>
+<td>1650</td>
+</tr>
+</table>
+</body>
+</html>
